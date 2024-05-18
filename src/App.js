@@ -16,13 +16,13 @@ export default class App extends Component {
         <Router>
           <Navbar/>
          <Routes>
-          <Route exact  path ="/" element={<NewsContainer key="general" pageSize="6" country ='in' category="general"/>}/>
-          <Route exact  path ="/sports" element={<NewsContainer key="sports" pageSize="6" country ='in' category="sports"/>}/>
+          <Route exact  path ="/" element={<NewsContainer key="general" pageSize="10" country ='in' category="general"/>}/>
+          <Route exact  path ="/sports" element={<NewsContainer key="sports" pageSize="10" country ='in' category="sports"/>}/>
           <Route exact  path ="/entertainment" element={<NewsContainer key="entertainment" pageSize="6" country ='in' category="entertainment"/>}/>
-          <Route exact  path ="/business" element={<NewsContainer key="business" pageSize="6" country ='in' category="business"/>}/> 
-          <Route exact  path ="/science" element={<NewsContainer key="science" pageSize="6" country ='in' category="science"/>}/>
-          <Route  exact path ="/technology" element={<NewsContainer key="technology" pageSize="6" country ='in' category="technology"/>}/>
-          <Route  exact path ="/health" element={<NewsContainer key="health" pageSize="6" country ='in' category="health"/>}/>
+          <Route exact  path ="/business" element={<NewsContainer key="business" pageSize="10" country ='in' category="business"/>}/> 
+          <Route exact  path ="/science" element={<NewsContainer key="science" pageSize="10" country ='in' category="science"/>}/>
+          <Route  exact path ="/technology" element={<NewsContainer key="technology" pageSize="10" country ='in' category="technology"/>}/>
+          <Route  exact path ="/health" element={<NewsContainer key="health" pageSize="10" country ='in' category="health"/>}/>
          </Routes>
 
           <Footer/>
